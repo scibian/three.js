@@ -1,0 +1,4 @@
+version=3
+
+opts="filenamemangle=s/.*r(\d[\d\.]*)\.tar\.gz/three.js-$1.tar.gz/" \
+https://github.com/mrdoob/three.js/releases/  .*/archive/r(\d[\d]*)\.tar\.gz	

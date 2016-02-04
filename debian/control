@@ -1,0 +1,20 @@
+Source: three.js
+Maintainer: David Bremner <bremner@debian.org>
+Section: web
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               node-uglify,
+	       python
+Standards-Version: 3.9.6
+Homepage: https://threejs.org
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/three.js.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/three.js.git
+
+Package: libjs-three
+Section: web
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Description: lightweight 3D graphics library
+ JavaScript library that provides a high level API to create 3D
+ graphics in the browser using WebGL.

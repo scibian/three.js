@@ -1,0 +1,32 @@
+three.js (72+dfsg1-1+c9+1) calibre9; urgency=medium
+
+  * Backport to Calibre9
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 04 Feb 2016 11:38:12 +0100
+
+three.js (72+dfsg1-1) unstable; urgency=medium
+
+  * Imported Upstream version 72+dfsg1
+  * Revert "Fix d/rules for r67"
+  * Remove all examples from libjs-three package
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Thu, 04 Feb 2016 11:27:09 +0100
+
+three.js (67+dfsg1-1) unstable; urgency=medium
+
+  * Back to upstream version 67+dfsg1
+
+ -- Rémi Palancher <remi@rezib.org>  Wed, 14 Oct 2015 09:54:26 +0200
+
+three.js (70+dfsg3-1+c9+1) calibre9; urgency=medium
+
+  * Backport to Calibre 9
+
+ -- Rémi Palancher <remi-externe.palancher@edf.fr>  Mon, 14 Sep 2015 12:24:31 +0200
+
+three.js (70+dfsg3-1) unstable; urgency=medium
+
+  * Initial upload (Closes: #779490).
+
+ -- David Bremner <bremner@debian.org>  Sun, 01 Mar 2015 11:47:41 +0100
+

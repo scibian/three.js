@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+# output every command that modifies files on the build system.
+#DH_VERBOSE = 1
+PACKAGE=three
+BUILDDIR=$(CURDIR)/debbuild
+
+# the following lines look redundant, but are actually needed because of ../build
+.PHONY: build
+build:
+	dh $@
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	mkdir -p $(BUILDDIR)
+	python utils/build/build.py --include common --include extras \
+		--output $(BUILDDIR)/$(PACKAGE).js
+	uglifyjs -o $(BUILDDIR)/$(PACKAGE).min.js $(BUILDDIR)/$(PACKAGE).js
+
+override_dh_auto_clean:
+	rm -rf $(BUILDDIR)
+
+
