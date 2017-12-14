@@ -1,3 +1,9 @@
+three.js (72+dfsg1-1sci8u1) scibian8; urgency=medium
+
+  * Scibian8 rebuild.
+
+ -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Thu, 14 Dec 2017 10:32:26 +0100
+
 three.js (72+dfsg1-1+c9+1) calibre9; urgency=medium
 
   * Backport to Calibre9
