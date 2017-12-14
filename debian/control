@@ -1,5 +1,5 @@
 Source: three.js
-Maintainer: David Bremner <bremner@debian.org>
+Maintainer: Scibian Project <packaging@scibian.org>
 Section: web
 Priority: optional
 Build-Depends: debhelper (>= 9),
@@ -7,8 +7,8 @@ Build-Depends: debhelper (>= 9),
 	       python
 Standards-Version: 3.9.6
 Homepage: https://threejs.org
-Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/three.js.git
-Vcs-Git: git://anonscm.debian.org/collab-maint/three.js.git
+Vcs-Browser: https://github.com/scibian/three.js
+Vcs-Git: https://github.com/scibian/three.js.git
 
 Package: libjs-three
 Section: web
